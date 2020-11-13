@@ -12,23 +12,23 @@ int main(void)
     printf("1 for addition, 2 for subtract, 3 for multip, 4 for divi: ");
     scanf("%d", &calc);
     if (calc == 1) {
-            scanf("Number: %d", &num1);
-            scanf("Number: %d", &num2);
+            scanf("%d", &num1);
+            scanf("%d", &num2);
             output = Addition(num1, num2);
     }
     else if (calc == 2) {
-            scanf("Number: %d", &num1);
+            scanf("%d", &num1);
             scanf("Number: %d", &num2);
             output = Subtraction(num1, num2);
     }
     else if (calc == 3) {
-            scanf("Number: %d", &num1);
-            scanf("Number: %d", &num2);
+            scanf("%d", &num1);
+            scanf("%d", &num2);
             output = Multiplication(num1, num2);
     }
     else if (calc == 4) {
-            scanf("Number: %d", &num1);
-            scanf("Number: %d", &num2);
+            scanf("%d", &num1);
+            scanf("%d", &num2);
             output = Division(num1, num2);
     }
     printf("This is the way: %d", output);
